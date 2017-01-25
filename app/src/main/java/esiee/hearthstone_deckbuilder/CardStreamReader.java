@@ -120,7 +120,7 @@ public class CardStreamReader extends AsyncTask<AppCompatActivity, Void, Boolean
         if (result) {
             UpdateJSONObject();
             this.activity.cards = GetCardsList();
-            this.activity.LoadingDone();
+            //this.activity.LoadingDone();
         }
     }
 }

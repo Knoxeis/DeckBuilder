@@ -14,27 +14,32 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
+
 import java.util.ArrayList;
 
 public class ScrollingActivity extends AppCompatActivity {
 
-    public ArrayList<Card> cards;
+    public static ArrayList<Card> cards;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+
+        Data_singleton.getInstance().mainActivity = this;
+
         setContentView(R.layout.activity_scrolling);
 
         Intent intent = new Intent(this, JSONDownloadActivity.class);
         startActivity(intent);
-        finish();
     }
 
-    public void LoadingDone()
+    public void LoadingDone(ArrayList<Card> c)
     {
-        Log.d("Ok", "Ok");
-        Log.d("Card display", cards.toString());
+        cards = c;
+        Log.d("ScrollingActivity", cards.toString());
     }
 
     @Override

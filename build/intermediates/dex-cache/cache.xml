@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_472659a46cc2ff87e11fd10cd246703cd179a039\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -21,48 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_1cfe0cad190f1676a01e687200771ba12b555bb0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_93478b70c66b38585d1a3a81506158d4938cf3e4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_d8afe1dc2edb788423db9479a0ea8bc6bfdaf1de\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
         <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_82d0b6ec16ada3b46df473377a9cfcea03853b2e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_ffe6f55e72386438f99684806daa5a0a0036c381\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,15 +57,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_69a4834602c07cf9250c702be424f6057f20a666\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -120,21 +66,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_025b188460cd7b19f0d2601c75e9e4ce46210cd3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
         <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_9c9852f3e8219a8fe9d5980116e6e0ba492e4840\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_6af51427fe7d268c21ff74d0c66f22c901daf561\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_b112c229a1a8021bae4bf3b124a459557eee6a68\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -165,24 +120,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\VM\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_81fa364dbf845dc77b204f2f4099b407fb0d8f2a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_ab1cd8911cc014b69b9ccedc531875339864b7ea\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -198,15 +135,6 @@
         revision="24.0.2"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
         <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_bfc34b24c9a1e5904a4a04b5874f8f9ca7b28c9c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="74fe79509cd7523bcf2322a43f8c56296e9eb41c">
-        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0aca78679eef99ee03865c4f135523eff45b5ebe\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -237,15 +165,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1078887595b90e50f933fc694a3bfb38fb7e9328\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -268,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="09027cda9174386921ed97d2cdb9f96f85ff4228">
+        sha1="8ae3d258de9f6a3f0c295f04f4ae7248d68dbc7c">
         <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6711f447e5571c386795a9a7fb0372d9451d02bd\classes.dex" />
     </item>
     <item
@@ -300,15 +219,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_4ed5c6e3191b0dd1c89c3f2c2652f7632b363869\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -322,17 +232,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="f4cd1a9209dfb02caaff2a2fa0eac379edbbf25c">
+        sha1="ad990e0d991ec2a4b230f1298b621405f3db1be6">
         <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9591c653598f12f9d560fda6c0c6fa1a51c335ff\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c4e1977c7ceba2391c4b8fd7397ce453ea17de65\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -351,6 +252,132 @@
         revision="24.0.2"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
         <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a5d2489327ffc2dda37771d4a09370de8f5c288a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_472659a46cc2ff87e11fd10cd246703cd179a039\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_1cfe0cad190f1676a01e687200771ba12b555bb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_93478b70c66b38585d1a3a81506158d4938cf3e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_d8afe1dc2edb788423db9479a0ea8bc6bfdaf1de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_ffe6f55e72386438f99684806daa5a0a0036c381\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_69a4834602c07cf9250c702be424f6057f20a666\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_025b188460cd7b19f0d2601c75e9e4ce46210cd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_81fa364dbf845dc77b204f2f4099b407fb0d8f2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_ab1cd8911cc014b69b9ccedc531875339864b7ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="74fe79509cd7523bcf2322a43f8c56296e9eb41c">
+        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0aca78679eef99ee03865c4f135523eff45b5ebe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1078887595b90e50f933fc694a3bfb38fb7e9328\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_4ed5c6e3191b0dd1c89c3f2c2652f7632b363869\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_8c9ce91d72d6b61ea021ad13989fefc3c3c5837f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\VM\Desktop\Hearthstone-DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c4e1977c7ceba2391c4b8fd7397ce453ea17de65\classes.dex" />
     </item>
     <item
         is-multidex="true"

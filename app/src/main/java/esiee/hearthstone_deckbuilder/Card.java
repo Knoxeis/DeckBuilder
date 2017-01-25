@@ -1,9 +1,9 @@
 package esiee.hearthstone_deckbuilder;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 public class Card {
-
-
-
     private String          id;
 
     private String          dbfId;
@@ -141,5 +141,4 @@ public class Card {
     public void setFlavor(String flavor) {
         this.flavor = flavor;
     }
-
 }
