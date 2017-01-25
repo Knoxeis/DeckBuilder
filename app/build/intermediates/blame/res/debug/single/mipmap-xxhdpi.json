@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Olivier/Desktop/Hearthstone-DeckBuilder/C:\\Users\\VM\\Desktop\\Hearthstone-DeckBuilder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "/Users/Olivier/Desktop/Hearthstone-DeckBuilder/C:\\Users\\VM\\Desktop\\Hearthstone-DeckBuilder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Olivier/Desktop/Hearthstone-DeckBuilder/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/Olivier/Desktop/Hearthstone-DeckBuilder/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
