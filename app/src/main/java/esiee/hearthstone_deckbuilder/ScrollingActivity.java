@@ -31,6 +31,12 @@ public class ScrollingActivity extends AppCompatActivity {
         finish();
     }
 
+    public void LoadingDone()
+    {
+        Log.d("Ok", "Ok");
+        Log.d("Card display", cards.toString());
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

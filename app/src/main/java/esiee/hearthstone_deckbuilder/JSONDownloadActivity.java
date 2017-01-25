@@ -13,8 +13,15 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class JSONDownloadActivity extends FragmentActivity implements DownloadCallback {
 
@@ -26,22 +33,21 @@ public class JSONDownloadActivity extends FragmentActivity implements DownloadCa
 	// downloads with consecutive button clicks.
 	private boolean mDownloading = false;
 
-	private ArrayList<Card> cards;
+	private ArrayList<Card>	_cards;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_scrolling);
-
 		Button click = (Button)findViewById(R.id.button);
 		click.setOnClickListener(new View.OnClickListener() {
+
 			@Override
 			public void onClick(View view) {
 
 				startDownload();
 			}
 		});
-
 		mNetworkFragment = NetworkFragment.getInstance(getFragmentManager(), "https://api.hearthstonejson.com/v1/15590/enUS/cards.json");
 	}
 
@@ -58,7 +64,7 @@ public class JSONDownloadActivity extends FragmentActivity implements DownloadCa
 		if (result != null) {
 			Log.d("result", result.toString());
 			UpdateJSONObject(result.toString());
-			Log.d("result", cards.toString());
+			Log.d("result", _cards.toString());
 		}
 	}
 
@@ -98,15 +104,17 @@ public class JSONDownloadActivity extends FragmentActivity implements DownloadCa
 		if (mNetworkFragment != null) {
 			mNetworkFragment.cancelDownload();
 		}
+		Log.d("e","END FUCKER");
+		Log.d("e","END FUCKER");
 	}
 
 	public boolean UpdateJSONObject (String json)
 	{
 		ObjectMapper mapper = new ObjectMapper();
-		mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
+		mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 		try {
-			cards = mapper.readValue(json, new TypeReference<ArrayList<Card>>(){});
+			_cards = mapper.readValue(json, new TypeReference<ArrayList<Card>>(){});
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
