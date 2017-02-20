@@ -702,6 +702,7 @@ int drawable design_ic_visibility 0x7f02007e
 int drawable design_snackbar_background 0x7f02007f
 int drawable navigation_empty_icon 0x7f020080
 int drawable notification_template_icon_bg 0x7f020081
+int id NIV 0x7f0c0075
 int id action0 0x7f0c0080
 int id action_bar 0x7f0c0065
 int id action_bar_activity_content 0x7f0c0000
@@ -728,7 +729,6 @@ int id always 0x7f0c0038
 int id auto 0x7f0c0021
 int id beginning 0x7f0c0034
 int id bottom 0x7f0c0022
-int id button 0x7f0c0075
 int id buttonPanel 0x7f0c004e
 int id cancel_action 0x7f0c0081
 int id center 0x7f0c0023

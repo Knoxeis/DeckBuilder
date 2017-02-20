@@ -1,5 +1,6 @@
 package esiee.hearthstone_deckbuilder;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 
 import java.util.ArrayList;
@@ -13,14 +14,16 @@ public class Data_singleton {
 		return ourInstance;
 	}
 
+	public Context				appContext;
 	public ScrollingActivity	mainActivity;
+	public ArrayList<Card>		cards;
 
 	private Data_singleton() {
 	}
 
-	public void CallMainActivity_downloadFinish(ArrayList<Card> cards) {
+	public void CallMainActivity_downloadFinish(ArrayList<Card> C) {
 		if (mainActivity != null) {
-			mainActivity.LoadingDone(cards);
+			mainActivity.LoadingDone(C);
 		}
 	}
 }

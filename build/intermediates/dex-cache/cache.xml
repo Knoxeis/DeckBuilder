@@ -187,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="8ae3d258de9f6a3f0c295f04f4ae7248d68dbc7c">
+        sha1="067910bd814113049ed209740ecdde193e35b04b">
         <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6711f447e5571c386795a9a7fb0372d9451d02bd\classes.dex" />
     </item>
     <item
@@ -232,7 +232,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="ad990e0d991ec2a4b230f1298b621405f3db1be6">
+        sha1="77791fc67f5b3f3d494a0e9839e3b3e171622a72">
         <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9591c653598f12f9d560fda6c0c6fa1a51c335ff\classes.dex" />
     </item>
     <item
@@ -297,6 +297,15 @@
         revision="24.0.2"
         sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
         <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_ffe6f55e72386438f99684806daa5a0a0036c381\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_920d8db01e2e5d317e1e7b97dd229460e9040399\classes.dex" />
     </item>
     <item
         is-multidex="true"

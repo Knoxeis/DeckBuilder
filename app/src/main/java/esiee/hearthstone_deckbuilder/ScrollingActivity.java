@@ -14,21 +14,32 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.android.volley.toolbox.Volley;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.util.ArrayList;
 
+import com.android.volley.toolbox.ImageLoader;
+import com.android.volley.toolbox.NetworkImageView;import com.android.volley.VolleyError;
+import com.android.volley.toolbox.ImageLoader;
+import com.android.volley.toolbox.NetworkImageView;
+
+
 public class ScrollingActivity extends AppCompatActivity {
 
     public static ArrayList<Card> cards;
+	private ImageLoader _ImageLoader;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
 
+
         Data_singleton.getInstance().mainActivity = this;
+        Data_singleton.getInstance().appContext = this.getApplicationContext();
+
 
         setContentView(R.layout.activity_scrolling);
 
@@ -40,6 +51,11 @@ public class ScrollingActivity extends AppCompatActivity {
     {
         cards = c;
         Log.d("ScrollingActivity", cards.toString());
+		Log.d("ScrollingActivity", "http://wow.zamimg.com/images/hearthstone/cards/enus/medium/" + cards.get(0).getId() + ".png");
+		Log.d("ScrollingActivity", findViewById(R.id.NIV).toString());
+		((NetworkImageView)findViewById(R.id.NIV))
+			.setImageUrl("http://wow.zamimg.com/images/hearthstone/cards/enus/medium/" + cards.get(34).getId() + ".png",
+			VolleyHandler.getInstance().getImageLoader());
     }
 
     @Override

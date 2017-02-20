@@ -2708,6 +2708,7 @@ containing a value of this type.
         public static final int notification_template_icon_bg=0x7f020081;
     }
     public static final class id {
+        public static final int NIV=0x7f0c0075;
         public static final int action0=0x7f0c0080;
         public static final int action_bar=0x7f0c0065;
         public static final int action_bar_activity_content=0x7f0c0000;
@@ -2734,7 +2735,6 @@ containing a value of this type.
         public static final int auto=0x7f0c0021;
         public static final int beginning=0x7f0c0034;
         public static final int bottom=0x7f0c0022;
-        public static final int button=0x7f0c0075;
         public static final int buttonPanel=0x7f0c004e;
         public static final int cancel_action=0x7f0c0081;
         public static final int center=0x7f0c0023;

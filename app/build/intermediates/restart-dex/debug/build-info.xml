@@ -5,40 +5,47 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="780026166605512"
+    timestamp="695350675926570"
     token="-5056357421979738253"
-    verifier="CLASS_ADDED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="1405" />
+        duration="221" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="21" />
     <task
         name="instant-run-transform"
-        duration="107" />
+        duration="61" />
     <task
         name="verifier"
-        duration="21" />
+        duration="4" />
 
     <artifact
-        location="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-        type="DEX" />
+        location="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="774921109609844"
+        timestamp="695036705780643"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="780026166605512"
-        verifier="CLASS_ADDED" >
+        timestamp="695310575893580"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="695350675926570"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\VM\Desktop\Android\DeckBuilder\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

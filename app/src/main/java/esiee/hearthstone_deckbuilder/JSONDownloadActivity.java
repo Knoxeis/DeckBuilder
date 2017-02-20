@@ -87,6 +87,7 @@ public class JSONDownloadActivity extends FragmentActivity implements DownloadCa
 
 	private void SendResult() {
 		Data_singleton.getInstance().CallMainActivity_downloadFinish(_cards);
+		finish();
 	}
 
 	public static String convertStreamToString(FileInputStream is) throws IOException {
