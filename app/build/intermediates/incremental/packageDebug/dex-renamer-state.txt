@@ -1,7 +1,0 @@
-#Mon Feb 20 21:48:41 CET 2017
-base.0=C\:\\Users\\VM\\Desktop\\Android\\DeckBuilder\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6711f447e5571c386795a9a7fb0372d9451d02bd
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\VM\\Desktop\\Android\\DeckBuilder\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9591c653598f12f9d560fda6c0c6fa1a51c335ff\\classes.dex
-base.1=C\:\\Users\\VM\\Desktop\\Android\\DeckBuilder\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9591c653598f12f9d560fda6c0c6fa1a51c335ff
-file.0=C\:\\Users\\VM\\Desktop\\Android\\DeckBuilder\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6711f447e5571c386795a9a7fb0372d9451d02bd\\classes.dex

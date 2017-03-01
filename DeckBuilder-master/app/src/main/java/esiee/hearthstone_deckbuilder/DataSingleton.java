@@ -1,21 +1,23 @@
 package esiee.hearthstone_deckbuilder;
 
+import android.content.Context;
+
 import java.util.ArrayList;
 
-class DataSingleton
-{
+public class DataSingleton {
+
 	private static DataSingleton ourInstance = new DataSingleton();
-	static DataSingleton getInstance() {
+	public static DataSingleton getInstance() {
 		return ourInstance;
 	}
 
-	ScrollingActivity mainActivity;
+	public Context				appContext;
+	public ScrollingActivity	mainActivity;
+	public ArrayList<Card>		cards;
 
-	private DataSingleton() {}
-
-	void CallMainActivity_downloadFinish(ArrayList<Card> cards) {
+	public void CallMainActivity_downloadFinish(ArrayList<Card> C) {
 		if (mainActivity != null) {
-			mainActivity.LoadingDone(cards);
+			mainActivity.LoadingDone(C);
 		}
 	}
 }
