@@ -142,12 +142,8 @@ public class DownloadTask extends AsyncTask<String, Void, DownloadTask.Result> {
 			}
 		} finally {
 			// Close Stream and disconnect HTTPS connection.
-			if (stream != null) {
-				stream.close();
-			}
-			if (connection != null) {
-				connection.disconnect();
-			}
+			if (stream != null) stream.close();
+			if (connection != null) connection.disconnect();
 		}
 		return result;
 	}
